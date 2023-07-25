@@ -1,8 +1,8 @@
 <% layout('./layouts/boilerplate.ejs') %>
 <script>
   const mapbox_token='<%- process.env.MAPBOX_TOKEN %>';
-  // const campgrounds=  <%-JSON.stringify(campgrounds) %>;
-  // console.log(campgrounds);
+  const campgrounds=  <%-JSON.stringify(campgrounds) %>;
+  console.log(campgrounds);
 </script>
 
 <div id="map" style="width: 95%;margin: auto; height: 50vh;"></div>
